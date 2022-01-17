@@ -1,0 +1,333 @@
+
+<!DOCTYPE html>
+<html lang="zxx" class="js">
+
+<head>
+    <base href="../../../">
+    <meta charset="utf-8">
+    <meta name="author" content="Softnio">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description"
+        content="A powerful and conceptual apps base dashboard template that especially build for developers and programmers.">
+    <!-- Fav Icon  -->
+    <link rel="shortcut icon" href="./images/favicon.png">
+    <!-- Page Title  -->
+    <title>Sistem Management Quick Test</title>
+    <!-- StyleSheets  -->
+    <link rel="stylesheet" href="https://admin.quicktest.id/assets/css/dashlite.css?ver=2.2.0">
+    <link id="skin-default" rel="stylesheet" href="https://admin.quicktest.id/assets/css/theme.css?ver=2.2.0">
+    <link rel="stylesheet" href="https://admin.quicktest.id/assets/css/styles.css">
+    <!-- Livewire Styles -->
+<style >
+    [wire\:loading], [wire\:loading\.delay], [wire\:loading\.inline-block], [wire\:loading\.inline], [wire\:loading\.block], [wire\:loading\.flex], [wire\:loading\.table], [wire\:loading\.grid] {
+        display: none;
+    }
+
+    [wire\:offline] {
+        display: none;
+    }
+
+    [wire\:dirty]:not(textarea):not(input):not(select) {
+        display: none;
+    }
+
+    input:-webkit-autofill, select:-webkit-autofill, textarea:-webkit-autofill {
+        animation-duration: 50000s;
+        animation-name: livewireautofill;
+    }
+
+    @keyframes livewireautofill { from {} }
+</style>
+        <style>
+    .diplayNone {
+        display: none;
+    }
+    </style>
+</head>
+<section class="header bg-white">
+
+    <div class="container">
+        <nav class="navbar navbartop-better navbar-expand-lg navbar-light bg-white border-bottom pb-3 pb-sm-1">
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbartop"
+                aria-controls="navbartop" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="icon-navbar mb-sm-0"><span class="icon ni ni-contact"></span> <span
+                        class="ml-2">Contact</span></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbartop">
+                <ul class="navbar-nav ml-auto navbartop">
+
+                    <li class="nav-item d-block d-sm-none mt-3 mt-sm-0">
+                        <em class="icon ni ni-mail text-primary mr-1"></em> <span class="text-secondary">Email</span>
+                    </li>
+
+                    <li class="nav-item active">
+                        <a class="nav-link" href="/cdn-cgi/l/email-protection#acc5c2cac3ecddd9c5cfd8c9dfd882c5c8"><em
+                                class="icon ni ni-mail text-primary mr-1 d-none d-sm-inline"></em><span class="__cf_email__" data-cfemail="fd94939b92bd8c88949e89988e89d39499">[email&#160;protected]</span></a>
+                    </li>
+
+                    <li class="nav-item d-block d-sm-none my-1 my-sm-0"></li>
+
+                    <li class="nav-item d-block d-sm-none">
+                        <em class="icon ni ni-call text-primary mr-1"></em> Call center
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="tel:02121383777"><em
+                                class="icon ni ni-call mr-1 d-none d-md-inline text-primary"></em> 021 21383777</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="tel:02121383777">021 21383888</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="tel:02121383777"> 021 21383999</a>
+                    </li>
+                </ul>
+            </div><!-- .collapse -->
+
+        </nav><!-- nav -->
+
+    </div><!-- .container -->
+
+    <div class="shadow-sm">
+
+        <div class="container">
+
+            <nav class="navbar navbar-expand-lg navbar-light bg-white justify-content-between">
+                <a class="navbar-brand" href="/">
+                    <img src="https://admin.quicktest.id/images/logo.png" height="30px" width="auto" alt="Logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                    aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav ml-auto navbar-better">
+                        <li class="nav-item active">
+                            <a class="nav-link font-weight-bold" href="/">Home <span
+                                    class="sr-only">(current)</span></a>
+                        </li>
+                        <li>
+                            <a href="https://reg.quicktest.id" class="nav-link">
+                                <button class="btn btn-dark btn-sm rounded-pill btn-book-now"><em
+                                        class="icon ni ni-upload-cloud mr-1"></em>Reschedule</button>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="form-group mx-2 my-auto d-inline w-25">
+                        <form>
+                            <input class="form-control mr-sm-3 rounded-pill w-100 pl-5" type="text"
+                                placeholder="Check registration number" aria-label="Search">
+                        </form>
+                    </div>
+
+                </div>
+            </nav>
+
+        </div><!-- .container -->
+
+    </div><!-- .shadow-sm -->
+
+</section>
+
+<div wire:id="hhsZpR0QYzdQdHAGOlJZ" wire:initial-data="{&quot;fingerprint&quot;:{&quot;id&quot;:&quot;hhsZpR0QYzdQdHAGOlJZ&quot;,&quot;name&quot;:&quot;laboratorium.hasil-test&quot;,&quot;locale&quot;:&quot;en&quot;,&quot;path&quot;:&quot;838010\/hasil-test&quot;,&quot;method&quot;:&quot;GET&quot;},&quot;effects&quot;:{&quot;listeners&quot;:[]},&quot;serverMemo&quot;:{&quot;children&quot;:[],&quot;errors&quot;:[],&quot;htmlHash&quot;:&quot;27221bce&quot;,&quot;data&quot;:{&quot;pasien&quot;:[],&quot;hasilantigen&quot;:&quot;&quot;,&quot;hasilpcr&quot;:[]},&quot;dataMeta&quot;:{&quot;models&quot;:{&quot;pasien&quot;:{&quot;class&quot;:&quot;App\\Models\\Pasien&quot;,&quot;id&quot;:838010,&quot;relations&quot;:[],&quot;connection&quot;:&quot;mysql&quot;},&quot;hasilpcr&quot;:{&quot;class&quot;:&quot;App\\Models\\HasilPcrBaru&quot;,&quot;id&quot;:1247914,&quot;relations&quot;:[],&quot;connection&quot;:&quot;mysql&quot;}}},&quot;checksum&quot;:&quot;a1210d6ffdf30d6ba3051a90afd206f0e9e8192095ff7f627eaeb21d6d14d592&quot;}}">
+    
+
+    <div class="container" style="min-height: 500px !important;">
+        <div class="row justify-content-center h-100">
+            <div class="col-md-6 my-5">
+                <div class="card shadow-sm">
+                    <div class="card-header bg-light">Hasil Test {&quot;104&quot;:&quot;SWAB PCR BASIC&quot;} Imam Setiaji</div>
+                    <div class="card-body">
+                        <table class="table table-sm table-borderless">
+                            <tr>
+                                <th>ID Pasien/Patient ID</th>
+                                <td>:</td>
+                                <td>838010</td>
+                            </tr>
+                            <tr>
+                                <th>No. Passport/Passport No.</th>
+                                <td>:</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <th>Nama Lengkap/Full Name</th>
+                                <td>:</td>
+                                <td>Imam Setiaji</td>
+                            </tr>
+                            <tr>
+                                <th>NIK/ID. No</th>
+                                <td>:</td>
+                                <td>3603130506890013</td>
+                            </tr>
+                            <tr>
+                                <th>Jenis Kelamin/Sex</th>
+                                <td>:</td>
+                                <td>                                        laki-laki/Male
+                                                                    </td>
+                            </tr>
+                            <tr>
+                                <th>Tempat, Tanggal Lahir/DOB</th>
+                                <td>:</td>
+                                <td>Cilacap, 1989-06-05</td>
+                            </tr>
+                            <tr>
+                                <th>Layanan/Services</th>
+                                <td>:</td>
+                                <td>{&quot;104&quot;:&quot;SWAB PCR BASIC&quot;}</td>
+                            </tr>
+                                                        <tr>
+                                <th>Jam Sampling/Date Collected</th>
+                                <td>:</td>
+                                <td>16 January 2022</td>
+                            </tr>
+                            <tr>
+                                <th>Hasil PCR/PCR Result</th>
+                                <td>:</td>
+                                <td>RT-PCR SARS-CoV-2 : Negative</td>
+                            </tr>
+                            <tr>
+                                <th>Metode/Method</th>
+                                <td>:</td>
+                                <td>RT-PCR</td>
+                            </tr>
+                                                                                </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<section class="bg-light widget-footer">
+    <div class="container">
+        <div class="row">
+
+            <div class="col-12">
+                <div class="bg-white shadow-sm rounded-pill p-5 my-5 mx-2 mx-md-4">
+
+                    <div class="row">
+                        <div class="col-6 col-md-3 text-md-center mb-5">
+                            <img src="https://quicktest.id/assets/images/logo.png" class="img-fluid w-50" alt="logo" />
+                        </div>
+                        <div class="col-6 col-md-3 order-3 order-sm-2">
+                            <h4 class="widget-title">Quick navigation</h4>
+                            <ul class="list_unstyled">
+                                <li><a href="https://quicktest.id/" title="home">Home</a></li>
+                                <li><a href="https://quicktest.id/service.html" title="home">Service</a></li>
+                                <li><a href="https://quicktest.id/about.html" title="home">About US</a></li>
+                                <li><a href="https://quicktest.id/location.html" title="home">Contact Us</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-6 col-md-3 order-4 order-sm-3">
+                            <h4 class="widget-title">Operational hours</h4>
+                            <p>
+                                Week days<br />
+                                08.00 - 19.00<br />
+                                (Excluding national holidays)
+                            </p>
+                            <p>
+                                Week end<br />
+                                08.00 -19.00
+                            </p>
+                        </div>
+                        <div class="col-6 col-md-3 order-2 order-sm-4  mb-5 mb-sm-0">
+                            <h4 class="widget-title">Social connect</h4>
+                            <ul class="list-inline">
+                                <li><a href=""><i class="icon ni ni-instagram"></i></a></li>
+                                <li><a href=""><i class="icon ni ni-twitter"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div><!-- .bg-white -->
+
+        </div><!-- .row -->
+    </div><!-- .container -->
+</section>
+
+<footer class="footer py-4 text-center bg-dark">
+    <div class="container">
+        <span class="text-muted font-weight-bold">2021 PT. Quicktest Laboratorium Indonesia.</span>
+    </div>
+</footer>
+<!-- app-root @e  -->
+<!-- JavaScript -->
+<!-- Livewire Scripts -->
+
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="/vendor/livewire/livewire.js?id=83b555bb3e243bc25f35" data-turbo-eval="false" data-turbolinks-eval="false"></script>
+<script data-turbo-eval="false" data-turbolinks-eval="false">
+    if (window.livewire) {
+	    console.warn('Livewire: It looks like Livewire\'s @livewireScripts JavaScript assets have already been loaded. Make sure you aren\'t loading them twice.')
+	}
+
+    window.livewire = new Livewire();
+    window.livewire.devTools(true);
+    window.Livewire = window.livewire;
+    window.livewire_app_url = '';
+    window.livewire_token = 'FDsHeaPDhARJwv6S6Vet5bteM1vD5VQpg1QKCbUi';
+
+	/* Make sure Livewire loads first. */
+	if (window.Alpine) {
+	    /* Defer showing the warning so it doesn't get buried under downstream errors. */
+	    document.addEventListener("DOMContentLoaded", function () {
+	        setTimeout(function() {
+	            console.warn("Livewire: It looks like AlpineJS has already been loaded. Make sure Livewire\'s scripts are loaded before Alpine.\\n\\n Reference docs for more info: http://laravel-livewire.com/docs/alpine-js")
+	        })
+	    });
+	}
+
+	/* Make Alpine wait until Livewire is finished rendering to do its thing. */
+    window.deferLoadingAlpine = function (callback) {
+        window.addEventListener('livewire:load', function () {
+            callback();
+        });
+    };
+
+    let started = false;
+
+    window.addEventListener('alpine:initializing', function () {
+        if (! started) {
+            window.livewire.start();
+
+            started = true;
+        }
+    });
+
+    document.addEventListener("DOMContentLoaded", function () {
+        if (! started) {
+            window.livewire.start();
+
+            started = true;
+        }
+    });
+</script>
+<script src="https://admin.quicktest.id/assets/js/bundle.js?ver=2.2.0"></script>
+<script src="https://admin.quicktest.id/assets/js/scripts.js?ver=2.2.0"></script>
+<script>
+
+window.addEventListener('alert', event => {
+    Swal.fire({
+        title: event.detail.message ?? '',
+        icon: event.detail.type ?? null,
+        ...event.detail.options
+    })
+});
+
+window.addEventListener('confirming', confirming => {
+    window.addEventListener(confirming.detail, event => {
+        Swal.fire({
+            confirmButtonText: event.detail.options.confirmButtonText ?? 'Yes',
+            ...event.detail.options
+        }).then((result) => {
+            if (result.isConfirmed) { Livewire.emit(event.detail.onConfirmed,event.detail.options["inputAttributes"]); }
+            else { const cancelCallback = event.detail.onCancelled; if (!cancelCallback) { return; } Livewire.emit(cancelCallback) }
+        })
+    });
+});
+</script>
+
+
+</html>
